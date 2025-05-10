@@ -1,7 +1,7 @@
 import pandas as pd
 import calendar
 
-FILE_PATH = "power-BI-project/top_20_downloaded_open_info.csv"
+FILE_PATH = "power-BI-project/src/top_20_downloaded_open_info.csv"
 
 def read_file(filename: str):
     df = pd.read_csv(filename)
@@ -37,7 +37,7 @@ def simplify_department() -> list[str]:
 def main():
     df = convert_date()
     df["department_abbr"] = simplify_department()
-    df.to_excel("power-BI-project/new_top_20.xlsx", index=False)
+    df.to_excel("power-BI-project/src/new_top_20.xlsx", index=False)
 
 if __name__ == "__main__":
     main()
