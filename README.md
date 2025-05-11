@@ -1,6 +1,6 @@
 # power-BI-project
 
-> Public Sector Data Analysis
+> Public Sector Data Analysis.
 
 ## Introduction
 
