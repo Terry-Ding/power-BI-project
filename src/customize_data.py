@@ -37,7 +37,7 @@ def simplify_department() -> list[str]:
 def main():
     df = convert_date()
     df["department_abbr"] = simplify_department()
-    df.to_excel("power-BI-project/src/new_top_20.xlsx", index=False)
+    # df.to_excel("power-BI-project/src/new_top_20.xlsx", index=False)
 
 if __name__ == "__main__":
     main()
